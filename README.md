@@ -1,6 +1,6 @@
 # Hi, I'm Samir Kerkar 👋
 
-**Clinical Data Analyst** at Desert Oasis Healthcare | **Aspiring Data Scientist**
+**Clinical Data Analyst** | **Aspiring Data Scientist**
 
 I work at the intersection of healthcare analytics and machine learning — analyzing EHR data across 60,000+ patients and 20+ facilities to drive measurable improvements in clinical outcomes. I build tools and models that turn messy, real-world data into actionable insights.
 
