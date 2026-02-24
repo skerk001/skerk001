@@ -151,12 +151,13 @@ Built during undergraduate research at **UC Irvine**, this project trained convo
 <td width="50%" valign="top">
 
 #### 🏥 Healthcare Outcomes Research
-Statistical analysis across 50,000+ patients at Desert Oasis Healthcare. COPD cost-effectiveness study showing **$83.50 PMPM savings**. Regression-based hospital readmission analysis and atrial fibrillation care gap identification. Co-authored research presented at **ASHP 2024**. **Co-authored Publication**--**Improvements in HF-related utilization outcomes following large-scale screening for LVEDP as part of routine primary care**  
-Jin W, Pahlevan NM, Krupa A, Jerdonek C, Cook KR, Chiu WB, **Kerkar S**, Brazeal T, Valenzuela L, Rinderknecht D.  
-*Submitted for peer review, 2025.*
+Statistical analysis across 50,000+ patients at Desert Oasis Healthcare. COPD cost-effectiveness study showing **$83.50 PMPM savings** (p=0.0027, n=997). Regression-based hospital readmission analysis and atrial fibrillation care gap identification. Co-authored research presented at **ASHP 2024**.
 
-`Python` `R` `SQL` `Regression` `NLP`
+📄 **Co-authored Publication** — *Improvements in HF-related utilization outcomes following large-scale screening for LVEDP as part of routine primary care*
+Jin W, Pahlevan NM, Krupa A, Jerdonek C, Cook KR, Chiu WB, **Kerkar S**, Brazeal T, Valenzuela L, Rinderknecht D. | *Submitted for peer review, 2025*
+- Observational study (n=3,024) demonstrating significant reductions in acute care utilization (ED: p=0.006, UC: p<0.001) following noninvasive HF screening across 11 primary care clinics
 
+`Python` `R` `SQL` `Logistic Regression` `scipy` `statsmodels` `Chi-Square` `Observational Study Design`
 </td>
 <td width="50%" valign="top">
 
