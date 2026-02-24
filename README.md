@@ -143,6 +143,7 @@ Built during undergraduate research at **UC Irvine**, this project trained convo
 
 </div>
 ---
+
 ### 📊 Other Projects
 
 <table>
@@ -157,35 +158,32 @@ Statistical analysis across 50,000+ patients at Desert Oasis Healthcare. COPD co
 </td>
 <td width="50%" valign="top">
 
-#### 🔬 ML Cancer Prediction
-Gene expression cancer classification using machine learning. Built predictive models on high-dimensional genomic data. Earlier work on **diabetic retinopathy classification** using computer vision approaches.
+#### [🔬 ML Cancer Prediction](https://github.com/skerk001/gene-cancer-prediction)
+Gene expression cancer classification using machine learning. Built predictive models on high-dimensional genomic data achieving **96% classification accuracy** on 100,000+ NIH chest X-ray images.
 
-`scikit-learn` `Computer Vision` `Classification`
+`scikit-learn` `TensorFlow` `Classification`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### ♟️ Chess Meme Tower Defense
-A creative game combining chess strategy with tower defense mechanics and internet culture. Built as a fun side project exploring game development patterns.
+#### [🏠 Real Estate Condition Prediction](https://github.com/skerk001/real-estate-condition-prediction)
+Machine learning model to predict property condition ratings from real estate listing data. Feature engineering on housing attributes to classify property conditions for valuation and investment analysis.
 
-`JavaScript` `Game Dev`
+`Python` `scikit-learn` `Pandas` `Feature Engineering`
 
 </td>
 <td width="50%" valign="top">
 
-#### 👁️ Diabetic Retinopathy Classification
-Computer vision research at **UC Irvine** — trained CNNs (TensorFlow/Keras) for multi-class diabetic retinopathy detection on 5,000+ labeled retinal images, achieving **F1 = 0.94**. Conducted systematic hyperparameter tuning and held-out validation across severity classes.
+#### ♟️ Chess Meme Tower Defense
+A Clash Royale-style tower defense game with 3 lanes, chess piece troops, meme characters (LeBron, Harambe, Doge, Pepe, Shrek), spells, and castle upgrades. Built with custom game AI and sprite-based animations.
 
-`Python` `TensorFlow` `Keras` `CNNs` `Computer Vision`
-
-`Calculus` `Linear Algebra` `Probability` `Statistics`
+`JavaScript` `HTML5 Canvas` `Game AI`
 
 </td>
 </tr>
 </table>
-
 ---
 
 
