@@ -142,6 +142,7 @@ Built during undergraduate research at **UC Irvine**, this project trained convo
 [![Research Paper](https://img.shields.io/badge/📄_Research-CNN_Paper_(PDF)-ef4444?style=for-the-badge)](https://github.com/skerk001/diabetic-retinopathy-classification/blob/main/DR_Classification_CNN_Research_Paper.pdf)
 
 </div>
+---
 ### 📊 Other Projects
 
 <table>
