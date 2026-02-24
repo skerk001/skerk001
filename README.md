@@ -15,9 +15,9 @@
 
 ### 👋 About Me
 
-I'm a data scientist with a mathematics background from **UC Irvine** (B.S. Mathematics, Mathematical Finance). I build things at the intersection of **statistical modeling**, **machine learning**, and **sports analytics** — turning messy real-world data into systems that surface genuine insight.
+I'm a data scientist with a mathematics background from **UC Irvine** (B.S. Mathematics). I build things at the intersection of **statistical modeling**, **machine learning**, and **sports analytics** — turning messy real-world data into systems that surface genuine insight.
 
-Previously at **Desert Oasis Healthcare**, I analyzed EHR data across 50,000+ patients and 20+ facilities, built predictive models (AUROC 0.72), and co-authored research presented at **ASHP national conferences**. Currently pursuing my **M.S. in Data Science at UC San Diego**.
+Previously at **Desert Oasis Healthcare**, I analyzed EHR data across 50,000+ patients and 20+ facilities, built predictive models (AUROC 0.72), and co-authored research presented at **ASHP national conferences**. Currently pursuing my **M.S. in Data Science.
 
 ```python
 class SamirKerkar:
