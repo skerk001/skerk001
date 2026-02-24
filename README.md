@@ -111,6 +111,8 @@ CPMI = 1.50·z_ppg + 0.40·z_apg + 0.35·z_ts + 0.50·z_±  — clutch metric (l
 ---
 ---
 
+---
+
 ### 👁️ Featured Research: Diabetic Retinopathy Classification
 
 > **Deep learning computer vision system for automated detection of diabetic retinopathy severity from retinal fundus images.**
@@ -124,7 +126,22 @@ Built during undergraduate research at **UC Irvine**, this project trained convo
 | 🎯 Performance | **F1 = 0.94** with robust generalization across severity grades |
 | 🔬 Methods | Transfer learning, data augmentation, hyperparameter tuning, error analysis |
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig4_confusion_matrix.png" width="380"/>
+<img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig5_roc_curves.png" width="380"/>
+<br/>
+<img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig3_training_history.png" width="380"/>
+<img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig6_per_class_metrics.png" width="380"/>
+</div>
+
 **Tech:** Python · TensorFlow · Keras · NumPy · OpenCV · Matplotlib
+
+<div align="center">
+
+[![DR Repo](https://img.shields.io/badge/👁️_Retinopathy-View_Repository-3b82f6?style=for-the-badge)](https://github.com/skerk001/diabetic-retinopathy-classification)
+[![Research Paper](https://img.shields.io/badge/📄_Research-CNN_Paper_(PDF)-ef4444?style=for-the-badge)](https://github.com/skerk001/diabetic-retinopathy-classification/blob/main/DR_Classification_CNN_Research_Paper.pdf)
+
+</div>
 ### 📊 Other Projects
 
 <table>
