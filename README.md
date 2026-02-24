@@ -151,9 +151,7 @@ Built during undergraduate research at **UC Irvine**, this project trained convo
 <td width="50%" valign="top">
 
 #### 🏥 Healthcare Outcomes Research
-Statistical analysis across 50,000+ patients at Desert Oasis Healthcare. COPD cost-effectiveness study showing **$83.50 PMPM savings**. Regression-based hospital readmission analysis and atrial fibrillation care gap identification. Co-authored research presented at **ASHP 2024**. ## Publications
-
-**Improvements in HF-related utilization outcomes following large-scale screening for LVEDP as part of routine primary care**  
+Statistical analysis across 50,000+ patients at Desert Oasis Healthcare. COPD cost-effectiveness study showing **$83.50 PMPM savings**. Regression-based hospital readmission analysis and atrial fibrillation care gap identification. Co-authored research presented at **ASHP 2024**. **Co-authored Publication**--**Improvements in HF-related utilization outcomes following large-scale screening for LVEDP as part of routine primary care**  
 Jin W, Pahlevan NM, Krupa A, Jerdonek C, Cook KR, Chiu WB, **Kerkar S**, Brazeal T, Valenzuela L, Rinderknecht D.  
 *Submitted for peer review, 2025.*
 
