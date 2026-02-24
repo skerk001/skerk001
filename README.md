@@ -109,7 +109,22 @@ CPMI = 1.50·z_ppg + 0.40·z_apg + 0.35·z_ts + 0.50·z_±  — clutch metric (l
 [![Research Paper](https://img.shields.io/badge/📄_Research-PMI_Paper_(PDF)-3b82f6?style=for-the-badge)](https://github.com/skerk001/court-vision-52/blob/main/docs/PMI_Research_Paper.pdf)
 
 ---
+---
 
+### 👁️ Featured Research: Diabetic Retinopathy Classification
+
+> **Deep learning computer vision system for automated detection of diabetic retinopathy severity from retinal fundus images.**
+
+Built during undergraduate research at **UC Irvine**, this project trained convolutional neural networks (TensorFlow/Keras) on 5,000+ labeled retinal images for multi-class severity classification. The model achieved **F1 = 0.94** across all severity grades through systematic architecture search, data augmentation, and held-out cross-validation.
+
+| Component | Details |
+|-----------|---------|
+| 🧠 Model | Custom CNN architecture (TensorFlow/Keras) |
+| 📊 Dataset | 5,000+ labeled retinal fundus images across 5 severity classes |
+| 🎯 Performance | **F1 = 0.94** with robust generalization across severity grades |
+| 🔬 Methods | Transfer learning, data augmentation, hyperparameter tuning, error analysis |
+
+**Tech:** Python · TensorFlow · Keras · NumPy · OpenCV · Matplotlib
 ### 📊 Other Projects
 
 <table>
