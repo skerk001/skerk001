@@ -142,8 +142,10 @@ A creative game combining chess strategy with tower defense mechanics and intern
 </td>
 <td width="50%" valign="top">
 
-#### 📈 Mathematical Finance
-Academic foundation in stochastic processes, derivatives pricing, and quantitative analysis from UC Irvine's Mathematical Finance concentration. Applied to data-driven decision frameworks.
+#### 👁️ Diabetic Retinopathy Classification
+Computer vision research at **UC Irvine** — trained CNNs (TensorFlow/Keras) for multi-class diabetic retinopathy detection on 5,000+ labeled retinal images, achieving **F1 = 0.94**. Conducted systematic hyperparameter tuning and held-out validation across severity classes.
+
+`Python` `TensorFlow` `Keras` `CNNs` `Computer Vision`
 
 `Calculus` `Linear Algebra` `Probability` `Statistics`
 
