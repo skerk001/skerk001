@@ -22,7 +22,7 @@ Previously at **Desert Oasis Healthcare**, I analyzed EHR data across 50,000+ pa
 
 <table>
 <tr><td>📍</td><td>Southern California</td></tr>
-<tr><td>🎓</td><td>B.S. Mathematics — UC Irvine · M.S. Data Science — UC San Diego (incoming)</td></tr>
+<tr><td>🎓</td><td>B.S. Mathematics — UC Irvine · M.S. Data Science (incoming)</td></tr>
 <tr><td>🔭</td><td>Building <b>Courtside</b> — a cross-era NBA player evaluation platform</td></tr>
 <tr><td>💡</td><td>NBA Analytics · ML/Statistical Modeling · Healthcare Data · Chess</td></tr>
 </table>
