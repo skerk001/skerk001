@@ -6,7 +6,7 @@ I work at the intersection of healthcare analytics and machine learning — anal
 
 ## 🔬 What I'm Working On
 
-- **[Courtside](https://github.com/skerk001/courtside-NBA)** — Full-stack NBA statistics platform with custom-derived advanced metrics (Win Shares, BPM, VORP) built from the mathematical formulas
+- **[Courtside](https://github.com/skerk001/court-vision-23)** — Full-stack NBA statistics platform with custom-derived advanced metrics (Win Shares, BPM, VORP) built from the mathematical formulas
 - **[Diabetic Retinopathy Classification](https://github.com/skerk001/diabetic-retinopathy-classification)** — CNN-based severity grading of retinal fundus images (F1 = 0.94)
 - **[Gene Expression Cancer Prediction](https://github.com/skerk001/gene-cancer-prediction)** — ML classification of AML vs. ALL leukemia subtypes using high-dimensional RNA expression data (F1 = 0.95)
 
