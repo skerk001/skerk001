@@ -153,20 +153,7 @@ Academic foundation in stochastic processes, derivatives pricing, and quantitati
 
 ---
 
-### 📈 GitHub Stats
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=skerk001&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f59e0b&icon_color=3b82f6&text_color=c9d1d9" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=skerk001&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=f59e0b&text_color=c9d1d9" height="165"/>
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=skerk001&style=flat-square&color=f59e0b&label=Profile+Views" />
 
 *"How do you compare a 1962 Wilt Chamberlain season to a 2024 Nikola Jokić season?*
 *The same way — by measuring how far each deviated from their peers."*
