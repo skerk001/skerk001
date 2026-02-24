@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ANIMATED HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a365d,100:f59e0b&height=220&section=header&text=Samir%20Kerkar&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Data%20Scientist%20%7C%20ML%20Engineer%20%7C%20NBA%20Analytics&descSize=18&descAlignY=55&descColor=fbbf24" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a365d,100:f59e0b&height=220&section=header&text=Samir%20Kerkar&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Data%20Scientist%20%7C%20Clinical%20Data%20Analyst%20%7C%20NBA%20Analytics&descSize=18&descAlignY=55&descColor=fbbf24" width="100%"/>
 
 <br/>
 
