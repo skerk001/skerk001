@@ -19,15 +19,16 @@ I'm a data scientist with a mathematics background from **UC Irvine** (B.S. Math
 
 Previously at **Desert Oasis Healthcare**, I analyzed EHR data across 50,000+ patients and 20+ facilities, built predictive models (AUROC 0.72), and co-authored research presented at **ASHP national conferences**. Currently pursuing my **M.S. in Data Science.
 
-```python
-class SamirKerkar:
-    location = "Southern California"
-    education = ["B.S. Mathematics — UC Irvine", "M.S. Data Science — UC San Diego (incoming)"]
-    interests = ["NBA Analytics", "ML/Statistical Modeling", "Healthcare Data", "Chess"]
-    
-    def current_focus(self):
-        return "Building Courtside — a cross-era NBA player evaluation platform"
-```
+
+<table>
+<tr><td>📍</td><td>Southern California</td></tr>
+<tr><td>🎓</td><td>B.S. Mathematics — UC Irvine · M.S. Data Science — UC San Diego (incoming)</td></tr>
+<tr><td>🔭</td><td>Building <b>Courtside</b> — a cross-era NBA player evaluation platform</td></tr>
+<tr><td>💡</td><td>NBA Analytics · ML/Statistical Modeling · Healthcare Data · Chess</td></tr>
+</table>
+
+---
+
 
 ---
 
