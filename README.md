@@ -7,7 +7,7 @@
 
 [![Email](https://img.shields.io/badge/Email-Samir2000VIP@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Samir2000VIP@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samir-kerkar-206132172/)
-[![Portfolio](https://img.shields.io/badge/Courtside-NBA%20Analytics-f59e0b?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgMThjLTQuNDIgMC04LTMuNTgtOC04czMuNTgtOCA4LTggOCAzLjU4IDggOC0zLjU4IDgtOCA4eiIgZmlsbD0id2hpdGUiLz48L3N2Zz4=)](https://github.com/skerk001/court-vision-52)
+[![Portfolio](https://img.shields.io/badge/Courtside-NBA%20Analytics-f59e0b?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTAgMThjLTQuNDIgMC04LTMuNTgtOC04czMuNTgtOCA4LTggOCAzLjU4IDggOC0zLjU4IDgtOCA4eiIgZmlsbD0id2hpdGUiLz48L3N2Zz4=)](https://github.com/skerk001/court-vision-23-main)
 
 </div>
 
@@ -105,8 +105,8 @@ CPMI = 1.50·z_ppg + 0.40·z_apg + 0.35·z_ts + 0.50·z_±  — clutch metric (l
 
 **Tech:** Python · Flask · React · TypeScript · scikit-learn · Tailwind CSS · NBA API · Basketball Reference
 
-[![Courtside Repo](https://img.shields.io/badge/📊_Courtside-View_Repository-f59e0b?style=for-the-badge)](https://github.com/skerk001/court-vision-52)
-[![Research Paper](https://img.shields.io/badge/📄_Research-PMI_Paper_(PDF)-3b82f6?style=for-the-badge)](https://github.com/skerk001/court-vision-52/blob/main/docs/PMI_Research_Paper.pdf)
+[![Courtside Repo](https://img.shields.io/badge/📊_Courtside-View_Repository-f59e0b?style=for-the-badge)](https://github.com/skerk001/court-vision-23-main)
+[![Research Paper](https://img.shields.io/badge/📄_Research-PMI_Paper_(PDF)-3b82f6?style=for-the-badge)](https://github.com/skerk001/court-vision-23-main/blob/main/docs/PMI_Research_Paper.pdf)
 
 ---
 ---
