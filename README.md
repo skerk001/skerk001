@@ -17,18 +17,14 @@
 
 I'm a data scientist with a mathematics background from **UC Irvine** (B.S. Mathematics). I build things at the intersection of **statistical modeling**, **machine learning**, **clinical data**, and **sports analytics** — turning messy real-world data into systems that surface genuine insight.
 
-Previously at **Desert Oasis Healthcare**, I analyzed EHR data across 50,000+ patients and 20+ facilities, built predictive models (AUROC 0.72), and co-authored research presented at **ASHP national conferences** and co-authored a publication following improvements in HF-related utilization outcomes following large-scale screening for LVEDP. Currently pursuing my M.S. in Data Science.
-
+Previously at **Desert Oasis Healthcare**, I analyzed EHR data across 50,000+ patients and 20+ facilities, built predictive models (AUROC 0.72), and co-authored research presented at **ASHP national conferences** with a manuscript currently under peer review. Currently pursuing my M.S. in Data Science.
 
 <table>
 <tr><td>📍</td><td>Southern California</td></tr>
 <tr><td>🎓</td><td>B.S. Mathematics — UC Irvine · M.S. Data Science (incoming)</td></tr>
-<tr><td>🔭</td><td>Building <b>Courtside</b> — a cross-era NBA player evaluation platform</td></tr>
-<tr><td>💡</td><td>NBA Analytics · ML/Statistical Modeling · Healthcare Data · Chess</td></tr>
+<tr><td>🔭</td><td>Building end-to-end ML systems for healthcare and sports analytics</td></tr>
+<tr><td>💡</td><td>NLP/RAG · ML/Statistical Modeling · Healthcare Data · NBA Analytics</td></tr>
 </table>
-
----
-
 
 ---
 
@@ -40,20 +36,65 @@ Previously at **Desert Oasis Healthcare**, I analyzed EHR data across 50,000+ pa
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white)
 
 </div>
+
+---
+
+### 🏥 Featured Project: ClinicalRAG
+
+> **An end-to-end RAG system for clinical question answering with hallucination guardrails, source citations, and systematic evaluation across chunking strategies.**
 
 <div align="center">
-<img src="assets/skills-bar.png" width="600"/>
+
+| Metric | Score |
+|:--|:-:|
+| **Condition Recall** | **97.6%** |
+| **Citation Rate** | **85.7%** |
+| **Abstention Accuracy** | **95.2%** |
+| **Retrieval Diversity** | **99–100%** |
+| **Hallucination Detection** | **Active** |
+
 </div>
+
+The system ingests 220 clinical documents across 7 conditions, embeds them with deduplication into ChromaDB, and retrieves via MMR (k=5, fetch_k=20, λ=0.7) to ensure diverse evidence. Llama 3 8B generates structured answers with `[Source N]` citations, and a post-generation guardrail cross-references extracted clinical values against retrieved context — flagging responses where <70% of values are grounded.
+
+**What makes this different:** Most RAG tutorials ship a demo and stop. This project includes a 21-question evaluation framework with expected answer keys, automated metrics, and ablation studies across four chunk sizes — producing quantitative evidence the system works and revealing exactly where it breaks down.
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/skerk001/clinical-rag/main/docs/images/chunk_comparison_6panel.png" width="700"/>
+<br/>
+<em>Performance across all metrics at 4 chunk sizes (256, 512, 1000, 1500)</em>
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/skerk001/clinical-rag/main/docs/images/quality_latency_tradeoff.png" width="500"/>
+<br/>
+<em>512-char chunks optimal: highest keyword recall (61.1%) and citation rate (85.7%) with balanced latency</em>
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/skerk001/clinical-rag/main/docs/images/category_heatmap.png" width="500"/>
+<br/>
+<em>Category-level breakdown: drug safety and cross-condition categories robust across all chunk sizes</em>
+</div>
+
+**Tech:** Python · LangChain · Llama 3 8B (Ollama) · ChromaDB · all-MiniLM-L6-v2 · Streamlit · matplotlib
+
+[![ClinicalRAG Repo](https://img.shields.io/badge/🏥_ClinicalRAG-View_Repository-10b981?style=for-the-badge)](https://github.com/skerk001/clinical-rag)
 
 ---
 
@@ -61,37 +102,14 @@ Previously at **Desert Oasis Healthcare**, I analyzed EHR data across 50,000+ pa
 
 > **A proprietary NBA analytics platform evaluating every player in league history (1946–2025) on a unified scale.**
 
-<div align="center">
-<img src="assets/pmi-flow.png" width="700"/>
-</div>
-
-**The PMI (Player Metric Index)** is a composite metric system I designed from scratch that solves three hard problems in basketball analytics:
-
-| Challenge | Solution |
-|-----------|----------|
-| Cross-era stat inflation | Within-season z-score normalization + graduated era penalties |
-| Missing data before 1973 | ML imputation via `GradientBoostingRegressor` for defensive metrics |
-| Position bias | Continuous position interpolation (1–5 scale) instead of discrete buckets |
+**The PMI (Player Metric Index)** is a composite metric I designed from scratch that solves three hard problems in basketball analytics: cross-era stat inflation (within-season z-score normalization + graduated era penalties), missing data before 1973 (ML imputation via `GradientBoostingRegressor`), and position bias (continuous 1–5 interpolation instead of discrete buckets).
 
 ```
 PMI = OPMI + DPMI
-
 OPMI = Σ w(pos, stat) · clip(z_stat, -3.0, +3.0) × era_penalty(season)
 DPMI = (w_stl·z_stl + w_blk·z_blk + w_drb·z_drb + w_pf·z_pf) × 0.72
 CPMI = 1.50·z_ppg + 0.40·z_apg + 0.35·z_ts + 0.50·z_±  — clutch metric (last 5 min ±5 pts)
 ```
-
-<div align="center">
-<img src="assets/pmi-radar.png" width="450"/>
-<br/>
-<em>PMI component comparison: Jordan vs LeBron vs Curry</em>
-</div>
-
-<br/>
-
-<div align="center">
-<img src="assets/courtside-stats.png" width="550"/>
-</div>
 
 <div align="center">
 
@@ -109,39 +127,23 @@ CPMI = 1.50·z_ppg + 0.40·z_apg + 0.35·z_ts + 0.50·z_±  — clutch metric (l
 [![Research Paper](https://img.shields.io/badge/📄_Research-PMI_Paper_(PDF)-3b82f6?style=for-the-badge)](https://github.com/skerk001/court-vision-23-main/blob/main/docs/PMI_Research_Paper.pdf)
 
 ---
----
-
----
 
 ### 👁️ Featured Research: Diabetic Retinopathy Classification
 
-> **Deep learning computer vision system for automated detection of diabetic retinopathy severity from retinal fundus images.**
+> **Deep learning system for automated detection of diabetic retinopathy severity from retinal fundus images.**
 
-Built during undergraduate research at **UC Irvine**, this project trained convolutional neural networks (TensorFlow/Keras) on 5,000+ labeled retinal images for multi-class severity classification. The model achieved **F1 = 0.94** across all severity grades through systematic architecture search, data augmentation, and held-out cross-validation.
-
-| Component | Details |
-|-----------|---------|
-| 🧠 Model | Custom CNN architecture (TensorFlow/Keras) |
-| 📊 Dataset | 5,000+ labeled retinal fundus images across 5 severity classes |
-| 🎯 Performance | **F1 = 0.94** with robust generalization across severity grades |
-| 🔬 Methods | Transfer learning, data augmentation, hyperparameter tuning, error analysis |
+Built during undergraduate research at **UC Irvine**, this project trained CNNs (TensorFlow/Keras) on 5,000+ labeled retinal images for multi-class severity classification, achieving **F1 = 0.94** across all severity grades through systematic architecture search, data augmentation, and cross-validation.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig4_confusion_matrix.png" width="380"/>
-<img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig5_roc_curves.png" width="380"/>
-<br/>
-<img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig3_training_history.png" width="380"/>
-<img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig6_per_class_metrics.png" width="380"/>
+<img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig4_confusion_matrix.png" width="400"/>
+<img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig5_roc_curves.png" width="400"/>
 </div>
 
 **Tech:** Python · TensorFlow · Keras · NumPy · OpenCV · Matplotlib
 
-<div align="center">
-
 [![DR Repo](https://img.shields.io/badge/👁️_Retinopathy-View_Repository-3b82f6?style=for-the-badge)](https://github.com/skerk001/diabetic-retinopathy-classification)
 [![Research Paper](https://img.shields.io/badge/📄_Research-CNN_Paper_(PDF)-ef4444?style=for-the-badge)](https://github.com/skerk001/diabetic-retinopathy-classification/blob/main/DR_Classification_CNN_Research_Paper.pdf)
 
-</div>
 ---
 
 ### 📊 Other Projects
@@ -151,13 +153,11 @@ Built during undergraduate research at **UC Irvine**, this project trained convo
 <td width="50%" valign="top">
 
 #### 🏥 Healthcare Outcomes Research
-Statistical analysis across 50,000+ patients at Desert Oasis Healthcare. COPD cost-effectiveness study showing **$83.50 PMPM savings** (p=0.0027, n=997). Regression-based hospital readmission analysis and atrial fibrillation care gap identification. Co-authored research presented at **ASHP 2024**.
+Statistical analysis across 50,000+ patients at Desert Oasis Healthcare. COPD cost-effectiveness study showing **$83.50 PMPM savings** (p=0.0027, n=997). Co-authored research presented at **ASHP 2024**.
 
-📄 **Co-authored Publication** — *Improvements in HF-related utilization outcomes following large-scale screening for LVEDP as part of routine primary care*
-Jin W, Pahlevan NM, Krupa A, Jerdonek C, Cook KR, Chiu WB, **Kerkar S**, Brazeal T, Valenzuela L, Rinderknecht D. | *Submitted for peer review, 2025*
-- Observational study (n=3,024) demonstrating significant reductions in acute care utilization (ED: p=0.006, UC: p<0.001) following noninvasive HF screening across 11 primary care clinics
+📄 **Co-authored Publication** — *Improvements in HF-related utilization outcomes following large-scale screening for LVEDP as part of routine primary care* · Observational study (n=3,024) demonstrating significant reductions in acute care utilization (ED: p=0.006, UC: p<0.001) across 11 primary care clinics. *Submitted for peer review, 2025.*
 
-`Python` `R` `SQL` `Logistic Regression` `scipy` `statsmodels` `Chi-Square` `Observational Study Design`
+`Python` `R` `SQL` `Logistic Regression` `scipy` `statsmodels`
 </td>
 <td width="50%" valign="top">
 
@@ -166,30 +166,22 @@ Gene expression cancer classification using machine learning. Built predictive m
 
 `scikit-learn` `TensorFlow` `Classification`
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 #### [🏠 Real Estate Condition Prediction](https://github.com/skerk001/real-estate-condition-prediction)
-Machine learning model to predict property condition ratings from real estate listing data. Feature engineering on housing attributes to classify property conditions for valuation and investment analysis.
+ML model to predict property condition ratings from real estate listing data. Feature engineering on housing attributes for valuation analysis.
 
 `Python` `scikit-learn` `Pandas` `Feature Engineering`
 
-</td>
-<td width="50%" valign="top">
-
 #### ♟️ Chess Meme Tower Defense
-A Clash Royale-style tower defense game with 3 lanes, chess piece troops, meme characters (LeBron, Harambe, Doge, Pepe, Shrek), spells, and castle upgrades. Built with custom game AI and sprite-based animations.
+A Clash Royale-style tower defense game with chess piece troops, meme characters, spells, and castle upgrades.
 
 `JavaScript` `HTML5 Canvas` `Game AI`
-
 </td>
 </tr>
 </table>
+
 ---
 
-
+<div align="center">
 
 *"How do you compare a 1962 Wilt Chamberlain season to a 2024 Nikola Jokić season?*
 *The same way — by measuring how far each deviated from their peers."*
