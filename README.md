@@ -2,7 +2,7 @@
 
 **Data Scientist** · Clinical Data · ML · Sports Analytics
 
-4+ years turning messy real-world data into systems that work — EHR pipelines across 60,000+ patients, published research at ASHP, predictive models in production. B.S. Mathematics from UC Irvine, incoming M.S. Data Science at UC San Diego.
+4+ years turning messy real-world data into systems that work — EHR pipelines across 60,000+ patients, published research at ASHP, predictive models in production. B.S. Mathematics from UC Irvine, pursuing M.S. Data Science.
 
 ---
 
