@@ -1,14 +1,14 @@
-# Samir Kerkar
+# 👋 Samir Kerkar
 
 **Data Scientist** · Clinical Data · ML · Sports Analytics
 
-4+ years turning messy real-world data into systems that work — EHR pipelines across 60,000+ patients, published research at ASHP, predictive models in production. B.S. Mathematics from UC Irvine, incoming M.S. Data Science.
+4+ years turning messy real-world data into systems that work — EHR pipelines across 60,000+ patients, published research at ASHP, predictive models in production. B.S. Mathematics from UC Irvine, incoming M.S. Data Science at UC San Diego.
 
 ---
 
 ### Projects
 
-**[🧬 GenomicsGPT](https://github.com/skerk001/genomicsgpt)** — AI-powered genetic variant interpretation platform. XGBoost/LightGBM ensemble trained on 1.69M ClinVar variants achieving **AUC 0.9949**. 40 engineered features, SHAP explainability, leakage-corrected evaluation. Integrates ClinVar + Ensembl VEP APIs with ML prediction pipeline.
+**[🧬 GenomicsGPT](https://github.com/skerk001/genomicsgpt)** — AI-powered genetic variant interpretation platform. XGBoost/LightGBM ensemble trained on 1.69M ClinVar variants, achieving **AUC 0.9949** (**0.985 leakage-corrected**). 40 engineered features, SHAP explainability, leakage-corrected evaluation. Integrates ClinVar + Ensembl VEP APIs with ML prediction pipeline.
 
 **[🏥 ClinicalRAG](https://github.com/skerk001/clinical-rag)** — RAG system for clinical question answering with hallucination guardrails. 220 clinical documents, ChromaDB + Llama 3 8B, source citations. 97.6% condition recall, 85.7% citation rate. Includes ablation study across 4 chunk sizes with 21-question evaluation framework.
 
