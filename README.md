@@ -27,4 +27,4 @@
 
 ### Beyond code
 
-2500+ rated chess player · Pianist · [LinkedIn](https://www.linkedin.com/in/samir-kerkar-206132172/) · [samir2000vip@gmail.com](mailto:Samir2000VIP@gmail.com)
+ [LinkedIn](https://www.linkedin.com/in/samir-kerkar-206132172/) · [samir2000vip@gmail.com](mailto:Samir2000VIP@gmail.com) · I enjoy playing chess (2500 rated) basketball and piano ·
