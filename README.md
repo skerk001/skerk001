@@ -24,4 +24,4 @@ M.S. Data Science @ Johns Hopkins (Fall 2026) · B.S. Mathematics, UC Irvine
 
 **Domain:** EHR/clinical data · genomics · causal inference · sports analytics
 
-**In free time:** love chess (2500+ rated) · love to play basketball ·  love to play piano ·
+**In free time:** love chess (2500+ rated) · love to play basketball · love to play piano · gamer
