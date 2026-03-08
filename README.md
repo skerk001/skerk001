@@ -8,52 +8,18 @@ M.S. Data Science @ Johns Hopkins (Fall 2026) · B.S. Mathematics, UC Irvine
 
 ---
 
-### 🧬 [GenomicsGPT](https://github.com/skerk001/genomicsgpt) — AI-Powered Genetic Variant Interpretation
+**🧬 [GenomicsGPT](https://github.com/skerk001/genomicsgpt)** — ML + LLM pipeline for clinical variant interpretation. XGBoost/LightGBM ensemble on 1.69M ClinVar variants (AUC = 0.9949) with SHAP explainability and Llama 3/Claude clinical report generation. Manuscript targeting *Bioinformatics Advances*.
 
-ML + LLM pipeline for clinical variant classification. XGBoost/LightGBM ensemble trained on 1.69M ClinVar variants with SHAP explainability and LLM-generated ACMG/AMP clinical reports (Llama 3 + Claude API).
+**🏀 [REIGN NBA Analytics](https://github.com/skerk001/reign-web)** — Cross-era player impact metric with 4 era-specific models, playoff opponent adjustments, and interactive visualizations. 29,969 player-seasons across 80 years. [Research Paper](https://github.com/skerk001/reign-web/blob/main/docs/REIGN_Methodology_Paper.pdf)
 
-| ROC Curves | SHAP Explainability |
-|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/skerk001/genomicsgpt/main/data/models/plots/roc_curves.png" width="400"> | <img src="https://raw.githubusercontent.com/skerk001/genomicsgpt/main/data/models/plots/shap_beeswarm.png" width="400"> |
-
-**AUC = 0.9949** (0.985 leakage-corrected) · 40 engineered features · Manuscript in preparation targeting *Bioinformatics Advances*
-
-`XGBoost` `LightGBM` `SHAP` `Llama 3` `Claude API` `ClinVar` `1.69M variants`
+**👁️ [Diabetic Retinopathy Classification](https://github.com/skerk001/diabetic-retinopathy-classification)** — CNN-based 5-class severity grading from retinal fundus images (F1 = 0.94) with GradCAM interpretability. [Research Paper](https://github.com/skerk001/diabetic-retinopathy-classification/blob/main/DR_Classification_CNN_Research_Paper.pdf)
 
 ---
 
-### 🏀 [REIGN NBA Analytics](https://github.com/skerk001/reign-web) — Cross-Era Player Impact Metric
+**ML:** Python · scikit-learn · XGBoost · TensorFlow/Keras · SHAP · pandas · NumPy · R
 
-Era-specific composite models quantifying NBA player impact across 80 years. Interactive platform with leaderboards, head-to-head comparisons, and visualizations. [📄 Research Paper](https://github.com/skerk001/reign-web/blob/main/docs/REIGN_Methodology_Paper.pdf)
+**Engineering:** React · Vite · FastAPI · PostgreSQL · SQL · Git
 
-<img src="https://raw.githubusercontent.com/skerk001/reign-web/main/docs/figures/fig2_top15_peak.png" width="700">
+**Domain:** EHR/clinical data (60K+ patients) · genomics · causal inference · sports analytics
 
-**4 era-specific models** (R² = 0.79–0.92) · 60/40 dampened blend · Playoff opponent adjustments · **29,969 player-seasons, 3,484 players**
-
-`React` `Vite` `Custom SVG` `Ridge Regression` `Basketball Reference Scraping`
-
----
-
-### 👁️ [Diabetic Retinopathy Classification](https://github.com/skerk001/diabetic-retinopathy-classification) — CNN Medical Imaging
-
-5-class severity grading from retinal fundus images with GradCAM interpretability. [📄 Research Paper](https://github.com/skerk001/diabetic-retinopathy-classification/blob/main/DR_Classification_CNN_Research_Paper.pdf)
-
-| Confusion Matrix | GradCAM Localization |
-|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig4_confusion_matrix.png" width="400"> | <img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig8_gradcam.png" width="400"> |
-
-**F1 = 0.94** · Transfer learning · GradCAM localization · 5 severity levels
-
-`TensorFlow/Keras` `CNN` `Transfer Learning` `GradCAM` `Medical Imaging`
-
----
-
-### Tech
-
-**ML:** Python · scikit-learn · XGBoost · TensorFlow/Keras · SHAP · pandas · NumPy
-
-**Engineering:** React · FastAPI · PostgreSQL · SQL · R · Git
-
-**Domain:** EHR/clinical data (60K+ patients, 20+ facilities) · genomics · causal inference · sports analytics
-
-**In free time:** chess player (2500+ rated) · basketball · piano ·
+**In free time:** love chess (2500+ rated) · love to play basketball ·  love to play piano ·
