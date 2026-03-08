@@ -1,30 +1,61 @@
-# 👋 Samir Kerkar
+# Samir Kerkar
 
-**Data Scientist** · Clinical Data · ML · Sports Analytics
+**Data Scientist** · Healthcare Analytics · ML/AI · Sports Analytics
 
-4+ years turning messy real-world data into systems that work — EHR pipelines across 60,000+ patients, published research at ASHP, predictive models in production. B.S. Mathematics from UC Irvine, pursuing M.S. Data Science.
+M.S. Data Science @ Johns Hopkins (Fall 2026) · B.S. Mathematics, UC Irvine
 
----
-
-### Projects
-
-**[🧬 GenomicsGPT](https://github.com/skerk001/genomicsgpt)** — AI-powered genetic variant interpretation platform. XGBoost/LightGBM ensemble trained on 1.69M ClinVar variants, achieving **AUC 0.9949** (**0.985 leakage-corrected**). 40 engineered features, SHAP explainability, leakage-corrected evaluation. Integrates ClinVar + Ensembl VEP APIs with ML prediction pipeline.
-
-**[🏥 ClinicalRAG](https://github.com/skerk001/clinical-rag)** — RAG system for clinical question answering with hallucination guardrails. 220 clinical documents, ChromaDB + Llama 3 8B, source citations. 97.6% condition recall, 85.7% citation rate. Includes ablation study across 4 chunk sizes with 21-question evaluation framework.
-
-**[🏀 Courtside](https://github.com/skerk001/court-vision-23-main)** — NBA analytics platform with PMI (Player Metric Index), a composite metric I designed to evaluate every player in league history (1946–2025) on a unified scale. Cross-era normalization, ML imputation for pre-1973 data, position-aware weighting. Flask + React + PostgreSQL.
-
-**[👁️ Diabetic Retinopathy Classification](https://github.com/skerk001/diabetic-retinopathy-classification)** — CNN-based severity classification from retinal fundus images, **F1 = 0.94** across 5 severity grades. UC Irvine undergraduate research. [Paper (PDF)](https://github.com/skerk001/diabetic-retinopathy-classification/blob/main/DR_Classification_CNN_Research_Paper.pdf)
+📧 [Samir2000VIP@gmail.com](mailto:Samir2000VIP@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/samir-kerkar-206132172/)
 
 ---
 
-### Publications
+### 🧬 [GenomicsGPT](https://github.com/skerk001/genomicsgpt) — AI-Powered Genetic Variant Interpretation
 
-- **HF screening outcomes** (n=3,024; ED visits p=0.006, UC p<0.001) — *under peer review, 2025*
-- **ASHP 2024** — Atrial fibrillation care gap analysis; pharmacist-led chronic disease management
+ML + LLM pipeline for clinical variant classification. XGBoost/LightGBM ensemble trained on 1.69M ClinVar variants with SHAP explainability and LLM-generated ACMG/AMP clinical reports (Llama 3 + Claude API).
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/skerk001/genomicsgpt/main/data/models/plots/roc_curves.png" width="48%">
+  <img src="https://raw.githubusercontent.com/skerk001/genomicsgpt/main/data/models/plots/shap_beeswarm.png" width="48%">
+</p>
+
+**AUC = 0.9949** (0.985 leakage-corrected) · 40 engineered features · Manuscript in preparation targeting *Bioinformatics Advances*
+
+`XGBoost` `LightGBM` `SHAP` `Llama 3` `Claude API` `ClinVar` `1.69M variants`
 
 ---
 
-### Beyond code
+### 🏀 [REIGN NBA Analytics](https://github.com/skerk001/reign-web) — Cross-Era Player Impact Metric
 
- [LinkedIn](https://www.linkedin.com/in/samir-kerkar-206132172/) · [samir2000vip@gmail.com](mailto:Samir2000VIP@gmail.com) · chess addict (2500 rated) love to play basketball and piano ·
+Era-specific composite models quantifying NBA player impact across 80 years. Interactive platform with leaderboards, head-to-head comparisons, and visualizations. [📄 Research Paper](https://github.com/skerk001/reign-web/blob/main/docs/REIGN_Methodology_Paper.pdf)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/skerk001/reign-web/main/docs/figures/fig2_top15_peak.png" width="70%">
+</p>
+
+**4 era-specific models** (R² = 0.79–0.92) · 60/40 dampened blend · Playoff opponent adjustments · **29,969 player-seasons, 3,484 players**
+
+`React` `Vite` `Custom SVG` `Ridge Regression` `Basketball Reference Scraping`
+
+---
+
+### 👁️ [Diabetic Retinopathy Classification](https://github.com/skerk001/diabetic-retinopathy-classification) — CNN Medical Imaging
+
+5-class severity grading from retinal fundus images with GradCAM interpretability. [📄 Research Paper](https://github.com/skerk001/diabetic-retinopathy-classification/blob/main/DR_Classification_CNN_Research_Paper.pdf)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig4_confusion_matrix.png" width="48%">
+  <img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig8_gradcam.png" width="48%">
+</p>
+
+**F1 = 0.94** · Transfer learning · GradCAM localization · 5 severity levels
+
+`TensorFlow/Keras` `CNN` `Transfer Learning` `GradCAM` `Medical Imaging`
+
+---
+
+### Tech
+
+**ML:** Python · scikit-learn · XGBoost · TensorFlow/Keras · SHAP · pandas · NumPy
+
+**Engineering:** React · FastAPI · PostgreSQL · SQL · R · Git
+
+**Domain:** EHR/clinical data (60K+ patients, 20+ facilities) · genomics · causal inference · sports analytics
