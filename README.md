@@ -12,10 +12,9 @@ M.S. Data Science @ Johns Hopkins (Fall 2026) · B.S. Mathematics, UC Irvine
 
 ML + LLM pipeline for clinical variant classification. XGBoost/LightGBM ensemble trained on 1.69M ClinVar variants with SHAP explainability and LLM-generated ACMG/AMP clinical reports (Llama 3 + Claude API).
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/skerk001/genomicsgpt/main/data/models/plots/roc_curves.png" width="48%">
-  <img src="https://raw.githubusercontent.com/skerk001/genomicsgpt/main/data/models/plots/shap_beeswarm.png" width="48%">
-</p>
+| ROC Curves | SHAP Explainability |
+|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/skerk001/genomicsgpt/main/data/models/plots/roc_curves.png" width="400"> | <img src="https://raw.githubusercontent.com/skerk001/genomicsgpt/main/data/models/plots/shap_beeswarm.png" width="400"> |
 
 **AUC = 0.9949** (0.985 leakage-corrected) · 40 engineered features · Manuscript in preparation targeting *Bioinformatics Advances*
 
@@ -27,9 +26,7 @@ ML + LLM pipeline for clinical variant classification. XGBoost/LightGBM ensemble
 
 Era-specific composite models quantifying NBA player impact across 80 years. Interactive platform with leaderboards, head-to-head comparisons, and visualizations. [📄 Research Paper](https://github.com/skerk001/reign-web/blob/main/docs/REIGN_Methodology_Paper.pdf)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/skerk001/reign-web/main/docs/figures/fig2_top15_peak.png" width="70%">
-</p>
+<img src="https://raw.githubusercontent.com/skerk001/reign-web/main/docs/figures/fig2_top15_peak.png" width="700">
 
 **4 era-specific models** (R² = 0.79–0.92) · 60/40 dampened blend · Playoff opponent adjustments · **29,969 player-seasons, 3,484 players**
 
@@ -41,10 +38,9 @@ Era-specific composite models quantifying NBA player impact across 80 years. Int
 
 5-class severity grading from retinal fundus images with GradCAM interpretability. [📄 Research Paper](https://github.com/skerk001/diabetic-retinopathy-classification/blob/main/DR_Classification_CNN_Research_Paper.pdf)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig4_confusion_matrix.png" width="48%">
-  <img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig8_gradcam.png" width="48%">
-</p>
+| Confusion Matrix | GradCAM Localization |
+|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig4_confusion_matrix.png" width="400"> | <img src="https://raw.githubusercontent.com/skerk001/diabetic-retinopathy-classification/main/fig8_gradcam.png" width="400"> |
 
 **F1 = 0.94** · Transfer learning · GradCAM localization · 5 severity levels
 
