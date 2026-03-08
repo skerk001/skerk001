@@ -55,3 +55,5 @@ Era-specific composite models quantifying NBA player impact across 80 years. Int
 **Engineering:** React · FastAPI · PostgreSQL · SQL · R · Git
 
 **Domain:** EHR/clinical data (60K+ patients, 20+ facilities) · genomics · causal inference · sports analytics
+
+**In free time:** chess player! (2500+ rated) · basketball · piano ·
