@@ -2,11 +2,11 @@
 
 **Data Scientist** · Healthcare Analytics · ML/AI ·
 
-M.S. Data Science @ Johns Hopkins (Fall 2026) · B.S. Mathematics, UC Irvine
+M.S. Data Science @ Johns Hopkins (Fall 2026) · B.S. Mathematics, UC Irvine ·
 
 4 years as Data Scientist at Desert Oasis Healthcare — causal inference, risk modeling, and NLP across 60,000+ patients and 20+ facilities. Heart failure outcomes manuscript under peer review.
 
-📧 [Samir2000VIP@gmail.com](mailto:Samir2000VIP@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/samir-kerkar-206132172/)
+📧 [Samir2000VIP@gmail.com](mailto:Samir2000VIP@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/samir-kerkar-206132172/) ·
 
 ---
 
