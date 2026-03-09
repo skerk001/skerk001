@@ -22,8 +22,6 @@
 
 **[REIGN NBA Analytics](https://github.com/skerk001/reign-web)** — Cross-era player impact metric with 4 era-specific regression models, playoff opponent adjustments, and interactive visualizations. **29,969 player-seasons** across 80 years. [Research Paper](https://github.com/skerk001/reign-web/blob/main/docs/REIGN_Methodology_Paper.pdf)
 
-**[Courtside](https://github.com/skerk001/court-vision-23-main)** — Full-stack NBA analytics platform with proprietary PMI system — era-adjusted Win Shares, BPM, VORP, and clutch metrics across **50,000+ player-seasons** (1946–2025). React/TypeScript + Flask/Python.
-
 **[Diabetic Retinopathy Classification](https://github.com/skerk001/diabetic-retinopathy-classification)** — CNN-based 5-class severity grading from retinal fundus images (**F1 = 0.94**) with GradCAM interpretability. [Research Paper](https://github.com/skerk001/diabetic-retinopathy-classification/blob/main/DR_Classification_CNN_Research_Paper.pdf)
 
 **[Gene Expression Cancer Prediction](https://github.com/skerk001/gene-cancer-prediction)** — ML classification of AML vs. ALL leukemia subtypes from **7,000+ gene expression features** (**F1 = 0.95**).
