@@ -50,4 +50,4 @@
 
 ---
 
-*When I'm not building models — chess (2500+ rated), basketball, piano, and gaming.*
+*In my free time! — chess (2500+ rated), basketball, piano, and gaming.*
