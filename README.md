@@ -1,6 +1,6 @@
 # Samir Kerkar
 
-**Data Scientist** · Healthcare Analytics · ML/AI · Sports Analytics
+**Data Scientist** · Healthcare Analytics · ML/AI ·
 
 M.S. Data Science @ Johns Hopkins (Fall 2026) · B.S. Mathematics, UC Irvine
 
@@ -18,10 +18,10 @@ M.S. Data Science @ Johns Hopkins (Fall 2026) · B.S. Mathematics, UC Irvine
 
 ---
 
-**ML:** Python · scikit-learn · XGBoost · TensorFlow/Keras · SHAP · pandas · NumPy · R
+**ML:** Python · scikit-learn · XGBoost · TensorFlow/Keras · SHAP · pandas · NumPy · R ·
 
-**Engineering:** React · Vite · FastAPI · PostgreSQL · SQL · Git
+**Engineering:** React · Vite · FastAPI · PostgreSQL · SQL · Git ·
 
-**Domain:** EHR/clinical data · genomics · causal inference · sports analytics
+**Domain:** EHR/clinical data · genomics · causal inference · healthcare and sports analytics ·
 
-**In free time:** love chess (2500+ rated) · love to play basketball · love to play piano · gamer
+**In free time:** love chess (2500+ rated) · love to play basketball · love to play piano · gamer ·
