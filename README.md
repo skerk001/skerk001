@@ -7,7 +7,7 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Building+ML+systems+that+improve+patient+outcomes;From+clinical+data+pipelines+to+production+models;Bayesian+methods+%7C+Causal+inference+%7C+NLP;4%2B+years+in+healthcare+analytics" alt="Typing SVG"/>
   </a>
 </p>
-# Hi, I'm Samir Kerkar 👋
+
 
 **Data Scientist** · Healthcare ML/AI · Causal Inference · NLP
 
