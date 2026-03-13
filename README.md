@@ -8,9 +8,8 @@
   </a>
 </p>
 
-**M.S. Data Science** @ Johns Hopkins University (incoming) · **B.S. Mathematics**, UC Irvine
-
-📧 [Samir2000VIP@gmail.com](mailto:Samir2000VIP@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/samir-kerkar-206132172/)
+**M.S. Data Science** @ Johns Hopkins University (incoming) · **B.S. Mathematics**, UC Irvine  
+📧 Samir2000VIP@gmail.com · 💼 [LinkedIn](https://www.linkedin.com/in/samir-kerkar-206132172/)
 
 ---
 
