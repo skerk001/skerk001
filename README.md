@@ -13,7 +13,7 @@
 
 ---
 
-4+ years of healthcare data science experience — causal inference, risk modeling, and NLP across **60,000+ patients** and **20+ facilities**. Built computer vision models at UCI, then moved into healthcare outcomes research — COPD cost-effectiveness, readmission modeling, chronic disease analytics, and four ASHP conference presentations. Heart failure outcomes manuscript under peer review (n=3,024, 11 primary care clinics).
+4+ years building production data science in healthcare — causal inference, predictive modeling, and NLP across 60,000+ patients and 20+ facilities. Built computer vision models at UCI, then moved into healthcare outcomes research — COPD cost-effectiveness, readmission modeling, chronic disease analytics, and four ASHP conference presentations. Heart failure outcomes manuscript under peer review (n=3,024, 11 primary care clinics).
 
 ---
 
