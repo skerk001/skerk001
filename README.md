@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Data+Scientist+%7C+Causal+Inference+%7C+Machine+Learning" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Building+ML+systems+that+improve+patient+outcomes;Causal+inference+%7C+Predictive+modeling+%7C+NLP;From+clinical+data+to+production+insights" alt="Typing SVG"/>
   </a>
 </p>
 
