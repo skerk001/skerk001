@@ -99,7 +99,7 @@
 
   <!-- Subtitle -->
   <text x="600" y="130" text-anchor="middle" fill="#8b949e" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="400" letter-spacing="1.5">
-    DATA SCIENTIST  ·  CAUSAL INFERENCE  ·  HEALTHCARE ANALYTICS
+    DATA SCIENTIST  ·  CAUSAL INFERENCE  ·  MACHINE LEARNING
   </text>
 
   <!-- Bottom accent line (very subtle) -->
