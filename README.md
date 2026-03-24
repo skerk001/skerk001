@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./github-header.svg" alt="Samir Kerkar - Data Scientist | ML Engineer | Healthcare Analytics" width="100%"/>
+  <img src="./github-header.svg" alt="Samir Kerkar - Data Scientist | Machine Learning | Causal Inference" width="100%"/>
 </p>
 
 <p align="center">
