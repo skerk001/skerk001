@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <b>M.S. Data Science</b> @ Johns Hopkins University (incoming) · <b>B.S. Mathematics</b>, UC Irvine<br/>
+  <b>M.S. Data Science</b> @ UC San Diego (incoming) · <b>B.S. Mathematics</b>, UC Irvine<br/>
   📧 Samir2000VIP@gmail.com · 💼 <a href="https://www.linkedin.com/in/samir-kerkar-206132172/">LinkedIn</a>
 </p>
 
