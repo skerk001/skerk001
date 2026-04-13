@@ -15,17 +15,17 @@
 
 ---
 
-4+ years of healthcare data science — causal inference, predictive modeling, and NLP across 60,000+ patients and 20+ facilities. Heart failure outcomes manuscript under peer review (n=3,024, 11 clinics). COPD cost-effectiveness analysis showing **$83.50 PMPM** reduction (p=0.0027).
+Four years of healthcare data science — causal inference, predictive modeling, and NLP across 60,000+ patients and 20+ facilities. Heart failure outcomes manuscript under peer review (multi-thousand-patient cohort, 11 clinics). Quasi-experimental COPD program evaluation showing **$83.50 PMPM** cost reduction (p=0.0027) via propensity-score matching and difference-in-differences.
 
 ---
 
 ## 🔬 Featured Projects
 
-**[GenomicsGPT](https://github.com/skerk001/genomicsgpt)** — ML + LLM pipeline for clinical variant interpretation. XGBoost/LightGBM ensemble on **1.69M ClinVar variants** (AUC **0.985**, leakage-corrected) with SHAP explainability and Llama 3 / Claude report generation.
+**[GenomicsGPT](https://github.com/skerk001/genomicsgpt)** — Research-stage ML + LLM pipeline for genomic variant interpretation. XGBoost/LightGBM ensemble on **1.69M ClinVar variants** (AUC **0.985**, leakage-corrected) with SHAP explainability and Llama 3 / Claude report generation.
 
-**[ClinicalRAG](https://github.com/skerk001/clinical-rag)** — RAG system for clinical QA over **220 discharge summaries** with hallucination guardrails and citation tracking. **97.6%** condition recall, **95.2%** abstention accuracy.
+**[ClinicalRAG](https://github.com/skerk001/clinical-rag)** — RAG system for clinical QA over **220 clinical documents** with hallucination guardrails and citation tracking. **97.6%** condition recall, **95.2%** abstention accuracy.
 
-**[CausalCare](https://github.com/skerk001/CausalCare)** — Causal inference on ICU beta-blocker treatment effects using propensity matching, IPW, doubly robust estimation, Double ML, and Causal Forest via **EconML/DoWhy**.
+**[CausalCare](https://github.com/skerk001/CausalCare)** — Estimating the causal effect of early beta-blocker administration on ICU mortality using modern causal inference methods: propensity matching, IPW, doubly robust estimation, Double ML, and Causal Forest via **EconML/DoWhy**.
 
 **[Diabetic Retinopathy Classification](https://github.com/skerk001/diabetic-retinopathy-classification)** — CNN-based 5-class severity grading from retinal fundus images (**F1 = 0.94**) with GradCAM interpretability. [Paper](https://github.com/skerk001/diabetic-retinopathy-classification/blob/main/DR_Classification_CNN_Research_Paper.pdf)
 
@@ -44,4 +44,4 @@
 
 ---
 
-*In my free time — chess (2500+ rated), basketball, piano, and gaming.*
+*In my free time — chess (2500+), basketball, piano, and gaming.*
