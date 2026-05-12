@@ -2,8 +2,6 @@
   <img src="./github-header.svg" alt="Samir Kerkar — Data Scientist" width="100%"/>
 </p>
 
-# Samir Kerkar
-
 Healthcare data scientist working in causal inference, quasi-experimental program evaluation, and applied ML. Four years evaluating pharmacist-led clinical programs at a 60,000-patient managed care system — most recently a PSM + DiD evaluation that documented **$83.50 PMPM cost reduction (p = 0.0027)** across a COPD cohort.
 
 M.S. Data Science, UC San Diego (starting Fall 2026) · B.S. Mathematics, UC Irvine
