@@ -8,7 +8,7 @@ Healthcare data scientist working in causal inference, quasi-experimental progra
 
 M.S. Data Science, UC San Diego (starting Fall 2026) · B.S. Mathematics, UC Irvine
 
-**Available:** Full-time through Summer 2026 · Open to contract / part-time during graduate study · Remote-friendly
+**Available:** Full-time · Open to contract / full-time · Remote-friendly
 
 📧 Samir2000VIP@gmail.com · [LinkedIn](https://www.linkedin.com/in/samir-kerkar-206132172/) · Irvine, CA
 
