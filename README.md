@@ -14,7 +14,7 @@ M.S. Data Science, UC San Diego (starting Fall 2026) · B.S. Mathematics, UC Irv
 
 ## Selected Work — Desert Oasis Healthcare
 
-Sole data analyst across 11 clinics. Methods chosen to defend causal claims a reviewer would actually question.
+Data Scientist across 11 clinics. Methods chosen to defend causal claims a reviewer would actually question.
 
 - **COPD program evaluation** (n = 997, PSM + DiD): $83.50 PMPM cost reduction (p = 0.0027), driven by lower ED (p = 0.002), inpatient (p = 0.04), and readmission (p = 0.002) utilization.
 - **Post-discharge pharmacist intervention** (n = 878, negative binomial regression): 22% reduction in 30-day readmissions (IRR = 0.78, p = 0.02).
