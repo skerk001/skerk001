@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="./github-header.svg" alt="Samir Kerkar — Data Scientist" width="100%"/>
-</p>
+# Samir Kerkar
 
 Healthcare data scientist working in causal inference, quasi-experimental program evaluation, and applied ML for managed care populations. Four years of pharmacist-led intervention studies at a 60,000-patient health system; now supporting publication-track outcomes work for an FDA-cleared cardiac device.
 
