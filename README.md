@@ -33,19 +33,12 @@ Data scientist across 20+ facilities, ~60,000 managed care patients. Methods cho
 
 ---
 
-## Featured Projects
+## Projects
 
-**[CausalCare](https://github.com/skerk001/CausalCare) — Causal inference on ICU mortality.** Five-method stack (PSM, IPW, AIPW, Double ML, Causal Forest) on DoWhy's *identify → estimate → refute* workflow. Method agreement as a robustness check rather than a single point estimate.
-
-**[GenomicsGPT](https://github.com/skerk001/genomicsgpt) — Variant interpretation at scale.** XGBoost / LightGBM ensemble over 1.69M ClinVar variants. Leakage-corrected **AUC = 0.985**. Feature ablation defends against gene-name memorization (consequence + LoF alone = 0.97; gene-only = 0.78). SHAP audit + LLM-generated ACMG/AMP reports.
-
----
-
-## Other Projects
-
+- **[CausalCare](https://github.com/skerk001/CausalCare)** — Causal inference on ICU mortality. Five-method stack (PSM, IPW, AIPW, Double ML, Causal Forest) on DoWhy's *identify → estimate → refute* workflow; method agreement as a robustness check rather than a single point estimate.
+- **[GenomicsGPT](https://github.com/skerk001/genomicsgpt)** — Variant interpretation at scale. XGBoost / LightGBM ensemble over 1.69M ClinVar variants. Leakage-corrected **AUC = 0.985**; feature ablation defends against gene-name memorization (consequence + LoF alone = 0.97; gene-only = 0.78). SHAP audit + LLM-generated ACMG/AMP reports.
 - **[ClinicalRAG](https://github.com/skerk001/clinical-rag)** — RAG over 220 clinical documents with retrieval *and* refusal as first-class metrics: 97.6% recall, 85.7% citation rate, 95.2% abstention accuracy.
 - **[Diabetic Retinopathy](https://github.com/skerk001/diabetic-retinopathy-classification)** — Custom CNN, 5-class grading. Weighted F1 = 0.94, outperforming ResNet-50 and VGG-16 on the same split. Grad-CAM confirms clinically meaningful attention.
-- **[REIGN](https://github.com/skerk001/reign-web)** — Cross-era NBA impact models over 29,969 player-seasons with era-specific z-score normalization.
 
 ---
 
