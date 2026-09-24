@@ -11,8 +11,7 @@ Samir2000VIP@gmail.com · [LinkedIn](https://www.linkedin.com/in/samir-kerkar-20
 ---
 
 ## Current — Ventric Health
-*Clinical Research Data Scientist (Remote)* — Analytical infrastructure and outcomes analyses supporting device validation and post-market evidence generation for an FDA-cleared cardiac device.
-
+*Clinical Research Data Scientist (Remote)* —  I currently work as a clinical research data scientist on the R&D team analyzing data to generate scientific evidence supporting research and publications in cardiovascular diagnostics.
 ---
 
 ## Selected Work — Desert Oasis Healthcare (2022–2026)
