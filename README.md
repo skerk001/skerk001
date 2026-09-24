@@ -10,7 +10,7 @@ Samir2000VIP@gmail.com · [LinkedIn](https://www.linkedin.com/in/samir-kerkar-20
 
 ---
 
-## Current — Ventric Health
+## Current — Ventric Health 
 
 *Clinical Research Data Scientist (Remote)* —  I currently work as a clinical research data scientist on the R&D team analyzing data to generate scientific evidence supporting research and publications in cardiovascular diagnostics.
 ---
